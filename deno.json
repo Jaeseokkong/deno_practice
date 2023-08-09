@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "allowJs": true
+    },
+    "tasks": {
+        "start" : "deno task hello && world",
+        "hello" : "deno run --allow-read --allow-write --allow-env file.ts",
+        "world" : "deno --allow-env file.ts"
+    }
+}
